@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">RememberMenu</string>
+    <string name="tab_learn">Learn</string>
+    <string name="tab_dishes">Dishes</string>
+    <string name="tab_menu">Menu</string>
+    <string name="adding_dish">Adding a dish</string>
+    <string name="add_image">Add image</string>
+    <string name="change_image">Change image</string>
+    <string name="add_next_card">Add next card</string>
+    <string name="next">Next</string>
+    <string name="delete_dish">Delete dish?</string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RememberMenu</string>
+    <string name="tab_learn">Учить</string>
+    <string name="tab_dishes">Блюда</string>
+    <string name="tab_menu">Меню</string>
+    <string name="adding_dish">Добавление блюда</string>
+    <string name="add_image">Добавить изображение</string>
+    <string name="change_image">Изменить изображение</string>
+    <string name="add_next_card">Добавить след. карточку</string>
+    <string name="next">Следующая</string>
+    <string name="delete_dish">Удалить блюдо?</string>
+</resources>

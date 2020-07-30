@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_graph"
+    app:startDestination="@id/tabNavigationFragment2">
+    <fragment
+        android:id="@+id/tabNavigationFragment2"
+        android:name="com.infinity_coder.remembermenu.ui.tabnavigation.TabNavigationFragment"
+        android:label="fragment_tab_navigation"
+        tools:layout="@layout/fragment_tab_navigation" >
+        <action
+            android:id="@+id/action_tabNavigationFragment2_to_addDishFragment"
+            app:destination="@id/addDishFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addDishFragment"
+        android:name="com.infinity_coder.remembermenu.ui.add_dish.AddDishFragment"
+        android:label="AddDishFragment" />
+</navigation>

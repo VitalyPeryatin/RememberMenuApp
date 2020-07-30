@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/tabs_graph"
+    app:startDestination="@id/learn">
+
+    <fragment
+        android:id="@+id/dishes"
+        android:name="com.infinity_coder.remembermenu.ui.dishes.DishesFragment"
+        android:label="DishesFragment" />
+    <fragment
+        android:id="@+id/learn"
+        android:name="com.infinity_coder.remembermenu.ui.learn.LearnFragment"
+        android:label="LearnFragment" />
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.infinity_coder.remembermenu.ui.menu.MenuFragment"
+        android:label="MenuFragment" />
+</navigation>

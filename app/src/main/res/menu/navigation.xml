@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/learn"
+        android:enabled="true"
+        android:icon="@drawable/ic_flash_cards"
+        android:title="@string/tab_learn"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/dishes"
+        android:enabled="true"
+        android:icon="@drawable/ic_dishes"
+        android:title="@string/tab_dishes"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/menu"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/tab_menu"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+</menu>
